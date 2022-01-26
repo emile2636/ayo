@@ -37,8 +37,7 @@
 
 ## About The Project
 
-Inspired by [Alchemy](https://docs.alchemy.com/alchemy/guides/eip-1559/gas-estimator)
-My First step into web3
+a counter
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
