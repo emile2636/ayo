@@ -15,7 +15,7 @@ function CustomInputNumber({
   name = 'custom-input-number',
   onChange = () => {},
   onBlur = () => {},
-  disabled = true,
+  disabled = false,
 }) {
   // extract counter logic
   const [count, setCount, plus, minus] = useCounter(value, min, max, step)

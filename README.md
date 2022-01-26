@@ -1,122 +1,152 @@
-# unmaintained
-I am not more maintain this project actively for different reasons. One is, that with Vite we have a nicer way to handle different aspects, other is time.
-But I check and can accept pull requests.
+<div align="center">
+  
+<h3 align="center">ayo</h3>
 
-### Visit my [Job Board for React Jobs](https://reactjsjob.com)
+  <p align="center">
+    a project with counter component
+  </p>
+</div>
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-# react-webpack-6-tailwind-2
+<!-- ABOUT THE PROJECT -->
 
-React 17 Boilerplate with React 17, Webpack 6, Tailwind 2, HMR, using babel, Jest unit testing, sass, with a hot dev server and an optimized production build
+## About The Project
 
-[Demo](https://dreamy-shirley-041c74.netlify.app/)
+Inspired by [Alchemy](https://docs.alchemy.com/alchemy/guides/eip-1559/gas-estimator)
+My First step into web3
 
-Maintained by [Altafino - Full-Stack Go/JS Development](https://altafino.com)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Last Changes (the newest first):
+### Built With
 
-- added full support for unit testing (with file mocks) using Jest
-- added SVGR as a webpack loader to import your SVG directly as a React Component.
-- added build-staging script. same as build but using .env.staging
-- added dotenv-webpack to handle process.env.VARS
-- added Prettier
-- added react-refresh-webpack-plugin for HMR
+- [React.js](https://reactjs.org/)
 
-## Installation
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-```
-git clone https://github.com/altafino/react-webpack-5-tailwind-2.git
-cd react-webpack-5-tailwind-2
-yarn / npm i
-```
+<!-- GETTING STARTED -->
 
-To use it for your own project the easiest way is to use the green Template Button on top right of this repo on Github.
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/emile2636/ayo.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run
+   ```sh
+   npm run start
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
 
 ## Usage
 
-### Development server
+a counter with few api expose
 
-```bash
-yarn start / npm start
-```
+| prop     | type              |
+| -------- | ----------------- |
+| min      | number            |
+| max      | number            |
+| step     | number            |
+| name     | string            |
+| value    | number            |
+| disabled | boolean           |
+| onChange | (name, value)=>{} |
+| onBlur   | (name, value)=>{} |
 
-You can view the development server at `localhost:3000`.
-(change port in ./config/webpack.dev.js)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Unit Test
+<!-- ROADMAP -->
 
-```bash
- yarn test / npm test
-```
+## Roadmap
 
-### Production build
+- [] TypeScript
 
-```bash
- yarn build / npm run build
-```
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
-## Features
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- [React 17](https://reactjs.org/)
-- [Webpack 6](https://webpack.js.org/)
-- [Tailwind 2](https://tailwindcss.com)
-- [Jest 27](http://jestjs.io/)
-- [PostCss](https://postcss.org/)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [Eslint](https://eslint.org/)
-- [Husky](https://github.com/typicode/husky) ( tks [@rubinj30](https://github.com/rubinj30) )
+<!-- CONTRIBUTING -->
 
-## Dependencies
+## Contributing
 
-### webpack
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
-- [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
-- [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
-- [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-### Babel
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
-- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class (an example Babel config)
-- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Jest
+<!-- LICENSE -->
 
-- [`jest`](https://jestjs.io/) - Delightful JavaScript Testing
-- [`@testing-library/jest-dom`](https://github.com/testing-library/jest-dom#readme) - Custom jest matchers to test the state of the DOM
-- [`@testing-library/react`](https://testing-library.com/docs/react-testing-library/intro/) - Simple and complete React DOM testing utilities
-- [`@testing-library/user-event`](https://github.com/testing-library/user-event#readme) - Fire events the same way the user does
+## License
 
-### Loaders
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-- [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files with Babel and webpack
-- [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-- [`node-sass`](https://github.com/sass/node-sass) - Node Sass
-- [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
-- [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Loader to process CSS with PostCSS
-- [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Eslint
+<!-- CONTACT -->
 
-- [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier) - Turns off all rules that are unnecessary or might conflict with Prettier.
-- [`eslint-import-resolver-alias`](https://www.npmjs.com/package/eslint-import-resolver-alias) - a simple Node behavior import resolution plugin for eslint-plugin-import, supporting module alias.
-- [`eslint-plugin-babel`](https://www.npmjs.com/package/eslint-plugin-babel) - an eslint rule plugin companion to babel-eslint.
-- [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import) - This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names.
-- [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier) - Runs prettier as an eslint rule.
-- [`eslint-plugin-react`](https://www.npmjs.com/package/eslint-plugin-react) - React specific linting rules for ESLint.
-- [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks) - Enforces the Rules of React Hooks.
+## Contact
 
-### Plugins
+<!-- Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin) - Remove/clean build folders
-- [`copy-webpack-plugin`](https://github.com/webpack-contrib/copy-webpack-plugin) - Copy files to build directory
-- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
-- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
-- [`optimize-css-assets-webpack-plugin`](https://github.com/NMFR/optimize-css-assets-webpack-plugin) - Optimize and minimize CSS assets
-- [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - Optimize and minimize JavaScript
-- [`react-refresh-webpack-plugin`](https://github.com/pmmmwh/react-refresh-webpack-plugin) - HMR using React Fast Refresh
-- [`dotenv-webpack`](https://github.com/mrsteele/dotenv-webpack) - Supports dotenv and other environment variables
-- [`@svgr/webpack`](https://github.com/mrsteele/dotenv-webpack) - SVGR can be used as a webpack loader, this way you can import your SVG directly as a React Component.
-- [`babel-jest`](https://www.npmjs.com/package/babel-jest) - Babel jest plugin for transforimg `.js` and `.jsx` files
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name) -->
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+<p align="right">(<a href="#top">back to top</a>)</p>
