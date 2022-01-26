@@ -18,7 +18,7 @@ class App extends Component {
           max={30}
           step={1}
           onChange={onChange}
-          onBlur={}
+          onBlur={onBlur}
         />
       </div>
     )
